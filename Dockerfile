@@ -1,5 +1,7 @@
 FROM centos
 
+MAINTAINER liangxiaobo@aliyun.com
+
 ADD log.py /opt/log.py
 
 RUN yum install -y epel-release
