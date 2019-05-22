@@ -12,7 +12,7 @@ ADD log.py /opt/log.py
 # RUN curl -O https://bootstrap.pypa.io/get-pip.py
 # RUN python3 get-pip.py
 
-
+RUN pip install --upgrade pip
 RUN pip3 install Faker
 
 # 中文编码 如果使用 FROM centos
